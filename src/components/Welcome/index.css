@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+  .welcome-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:  #1e293b;
+  }
+  
+  .welcome-heading{
+    color:#f0bb03;
+    font-size: 64px;
+  }
+  
+  .welcome-description{
+    color:#ffffff;
+    font-size: 24px;
+  }
+  
+  .subscribe-btn{
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 16px;
+    padding:12px 24px;
+    border-radius: 12px;
+    border:none;
+  }
+  
+  @media screen and (min-width:768px){
+    .welcome-heading{
+      font-size: 96px;
+    }
+    .welcome-description{
+      font-size: 36px;
+    }
+    .subscribe-btn{
+      font-size: 18px;
+    }
+  }

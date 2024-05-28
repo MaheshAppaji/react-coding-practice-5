@@ -1,0 +1,26 @@
+.even-odd-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.even-odd-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(#ff6e7f,#bfe9ff);
+}
+
+.incr-btn{
+    background-color: white;
+    color: #1e293b;
+    padding: 8px 32px;
+    border-radius: 10px;
+    font-size: 12px;
+    border: none;
+}
